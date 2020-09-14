@@ -1,4 +1,4 @@
-package regularExpression;
+package leetcode10;
 
 public class CheckIfMatchesFunction {
 	// Runtime O(m + n) where number of elements in s and n is the number of elements in p

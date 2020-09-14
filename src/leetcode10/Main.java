@@ -1,4 +1,4 @@
-package regularExpression;
+package leetcode10;
 
 public class Main {
 	public static void main(String[] args) {
@@ -6,7 +6,7 @@ public class Main {
 		String s = "aab";
 		
 		// patterns
-		String p = "c*a*b";
+		String p = "c.*";
 		
 		System.out.println("s: " + s + " p: " + p);
 		
