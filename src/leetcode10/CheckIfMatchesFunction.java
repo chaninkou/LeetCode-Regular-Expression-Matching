@@ -39,7 +39,7 @@ public class CheckIfMatchesFunction {
 			}
 		}
 
-		// This will show if its match or not
+		// true if matched
 		return dp[s.length()][p.length()];
 	}
 }
