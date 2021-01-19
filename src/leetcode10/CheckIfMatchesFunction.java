@@ -33,7 +33,7 @@ public class CheckIfMatchesFunction {
 					if (p.charAt(j - 2) == '.' || s.charAt(i - 1) == p.charAt(j - 2)) {
 						dp[i][j] = dp[i - 1][j] || dp[i][j];
 					}
-				} else { // Don't really need this since the array is already false default
+				} else { // Not needed since default is false.
 					dp[i][j] = false;
 				}
 			}
